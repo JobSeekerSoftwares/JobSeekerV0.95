@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DadosPessoaisActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:rotation="180"
+            android:onClick="irInicio"
+            app:srcCompat="@drawable/voltar" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/dados_pessoais"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/textView10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/nome_completo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/data_nascimento"
+                android:inputType="date" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText3"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/cpf"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/nacionalidade"
+                android:inputType="textPersonName" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/spinner"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/endereco"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/editText8"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/editText4"
+                android:layout_below="@id/editText7"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/cidade"
+                android:inputType="textPersonName" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/editText4"
+                android:layout_below="@id/editText7"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:id="@+id/editText9"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText8"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/telefone"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText10"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/celular"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/editText10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:gravity="fill_horizontal"
+                android:hint="@string/sobre_voce"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorDestaque"
+                android:onClick="irDadosProfissionais"
+                android:text="@string/avancar" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

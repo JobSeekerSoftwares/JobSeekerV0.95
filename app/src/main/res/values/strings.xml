@@ -1,0 +1,68 @@
+<resources>
+
+
+    <string name="app_name">JobSeeker</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="slogan">Você está a um clique do seu novo emprego!</string>
+    <string name="teste">wefwherhnwge</string>
+    <string name="nome_de_usuario">Nome de usuário</string>
+    <string name="senha">Senha</string>
+    <string name="confirmar_senha">Confirmar senha</string>
+    <string name="cadastrar">Cadastrar!</string>
+    <string name="tem_cadastro">Já é cadastrado? Clique aqui!</string>
+    <string name="curriculo">Currículo</string>
+    <string name="nome_completo">Nome completo</string>
+    <string name="data_nascimento">Data de nascimento</string>
+    <string name="cpf">CPF</string>
+    <string name="email">E-mail</string>
+    <string name="nacionalidade">Nacionalidade</string>
+    <string name="endereco">Endereço</string>
+    <string name="cidade">Cidade</string>
+    <string name="telefone">Telefone</string>
+    <string name="celular">Celular</string>
+    <string name="dados_pessoais">Dados pessoais</string>
+    <string name="sobre_voce">Fale um pouco sobre você!</string>
+    <string name="avancar">Avançar!</string>
+    <string name="dados_profissionais">Dados profissionais</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="perfil_profissional">Perfil profissional</string>
+    <string name="exp_profissional">Experiência profissional</string>
+    <string name="formacao">Formação acadêmica</string>
+    <string name="cursos">Cursos complementares</string>
+    <string name="idiomas">Idiomas</string>
+    <string name="complemento">Informações complementares</string>
+    <string name="alterar">Alterar dados</string>
+    <string name="iniciar_chat">Iniciar chat</string>
+    <string name="chat">Chat</string>
+    <string name="empregador_parte">Empregador</string>
+    <string name="upload_oferta">Registrar emprego</string>
+    <string name="change_oferta">Alterar dados emprego</string>
+    <string name="especificacoes">Especificações</string>
+
+    <string name="titulo_emprego">Cargo</string>
+    <string name="requisitos">Requisitos</string>
+    <string name="formacao2">Formação acadêmica desejável</string>
+    <string name="experiencia">Experiência desejável</string>
+    <string name="salario">Salario</string>
+    <string name="local">Local</string>
+    <string name="disponibilidade">Horário</string>
+
+
+    <!--exit notification-->
+    <string name="press_again_exit_app">Press again to exit</string>
+
+    <string name="settings_file_name">com.app.sample.fchat.temp</string>
+
+</resources>

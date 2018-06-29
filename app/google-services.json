@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1040759695274",
+    "firebase_url": "https://jobseekerfirebase.firebaseio.com",
+    "project_id": "jobseekerfirebase",
+    "storage_bucket": "jobseekerfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040759695274:android:f05e9b1e181ed37d",
+        "android_client_info": {
+          "package_name": "com.jobseeker.jobseekerusuario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040759695274-mifq8iqe9e3q6m38udg3dgidca11v926.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobseeker.jobseekerusuario",
+            "certificate_hash": "029bc8b5da72dba63ee595f707fd765f4e3750ed"
+          }
+        },
+        {
+          "client_id": "1040759695274-4gsrrlp9ctf00vqlgamlbqsbehk4mvpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3LSq1zeJjU5s5LzoxsMy1do5cY0Ldu14"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040759695274-4gsrrlp9ctf00vqlgamlbqsbehk4mvpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuscaPersonalizadaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/logo" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="10dp"
+            android:rotation="180"
+            app:srcCompat="@drawable/voltar" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            app:srcCompat="@drawable/voltar" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/dados_profissionais"
+                android:textAllCaps="true"
+                android:textColor="@color/colorBlack"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/textView10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/objetivo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/editText12"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/perfil_profissional"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/editText13"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/exp_profissional"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText15"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/editText14"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/formacao"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText16"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/editText15"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/cursos"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText17"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/idiomas"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText18"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText17"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/complemento"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/editText18"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorDestaque"
+                android:onClick="irFinal"
+                android:text="@string/avancar" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

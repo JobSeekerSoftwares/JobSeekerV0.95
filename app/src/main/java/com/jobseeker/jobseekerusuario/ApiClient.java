@@ -26,7 +26,7 @@ public class ApiClient {
                     .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
                     .create();
             Retrofit restAdapter = new Retrofit.Builder()
-                    .baseUrl("http://10.208.7.111:8000/")
+                    .baseUrl("http://jonatas.pythonanywhere.com/")
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .build();
 
